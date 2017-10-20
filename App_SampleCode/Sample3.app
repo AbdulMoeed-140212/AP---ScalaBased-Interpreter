@@ -1,0 +1,4 @@
+var x:int = 10;
+const y:int = 9;
+if x>y then y = y+1 else y=y-1;
+print y

@@ -1,0 +1,6 @@
+var x:int = 10;
+var y:int;
+y = 0;
+while x>y do y = y+1; print y;
+
+
