@@ -456,10 +456,10 @@ object basic {
   }
 
   def main(args:Array[String]): Unit ={
-    if(args.length <1){
+    /*if(args.length <1){
       println("No file name specified ! give file name of format : filename.app")
       sys.exit(3)
-    }
+    }*/
     print("Enter file name >>> ")
     var in = readLine()
     var read = fileread(in)
